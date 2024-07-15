@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+.input-container{
+    display: flex;
+    align-items: center;
+    border: 1px solid #ff6e00;
+    padding: 5px;
+    width: 300px;
+    height: 50px;
+    border-radius: 50px;
+    margin: 10px;
+    position: relative;
+    transition: width 1.5s;
+}
+.input{
+    margin: 10px 50px;
+    margin-left: 20px;
+    width: 100%;
+    color: #ff6e00;
+    border: none;
+    background-color: transparent;
+    outline: 0;
+}
+::placeholder{
+    letter-spacing: 1.1px;
+}
+.fa-solid{
+    position: absolute;
+    right: 15px;
+    width: 25px;
+    text-align: center;
+    margin: 0 auto;
+    cursor: pointer;
+    color: #ffa31a;
+}
+ul li{
+    display: inline;
+    margin-right: 40px;
+
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 70%;
+    padding: 3rem;
+    box-shadow: 10px 10px 40px 5px #e0e0e0;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content-container h1{
+    font-size: 2rem;
+    color: #2c2c2c;
+}
+.content-container p{
+line-height: 1.4;
+margin-bottom: 2rem;
+color: #444444;
+width: 26rem;
+}
+.img{
+    transform: translateX(-120px);
+    margin-top: 1rem;
+    width: 350px;
+    height: 350px;
+    border-radius: 300px;
+    background: url("https://images.unsplash.com/photo-1600289031464-74d374b64991?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1075&q=80");
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+button{
+    outline: 0;
+    border: 0;
+    padding: 12px 10px;
+    border-radius: 12px;
+    color: #fff;
+    background-color: #ffa31a;
+    cursor: pointer;
+}
+button:hover{
+    
+}
+.ingredents{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 5rem;
+    padding: 50px;
+}
+.ingredents span{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 3px;
+}
+.ing{
+    padding: 10px 20px;
+    border: 2px solid #ff6e00;
+    border-radius: 100px;
+    color: #ff6e00;
+}
+
+
+
